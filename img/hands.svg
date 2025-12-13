@@ -1,0 +1,14 @@
+<svg width="64" height="108" viewBox="0 0 64 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="63" height="107" rx="4.5" fill="white"/>
+<rect x="0.5" y="0.5" width="63" height="107" rx="4.5" stroke="#9747FF" stroke-dasharray="10 5"/>
+<path d="M30.8365 32.7271H32.8798C34.0082 32.7271 34.923 31.8123 34.923 30.6839C34.923 29.5554 34.0082 28.6406 32.8798 28.6406H29.8149C29.2019 28.6406 28.6911 28.845 28.3846 29.2536L22.9807 34.6575" stroke="#ADADAD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M27.103 38.709L28.3846 37.4274C28.6911 37.0188 29.2019 36.8144 29.8149 36.8144H33.9014C35.0252 36.8144 36.0468 36.4058 36.762 35.5885L41.4614 31.0933C42.2816 30.3174 42.3178 29.0236 41.5423 28.203C40.7668 27.3824 39.473 27.3454 38.652 28.1204L34.3611 32.1047" stroke="#ADADAD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21.9614 33.6738L27.6445 40.1028" stroke="#ADADAD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="35.375" cy="26" r="2.9125" stroke="#ADADAD" stroke-width="1.8"/>
+<path d="M27.103 82.709L28.3846 81.4274C28.6911 81.0188 29.2019 80.8144 29.8149 80.8144H33.9014C35.0252 80.8144 36.0468 80.4058 36.762 79.5885L41.4614 75.0933C42.2816 74.3174 42.3178 73.0236 41.5423 72.203C40.7668 71.3824 39.473 71.3454 38.652 72.1204L34.3611 76.1047" fill="#ADADAD"/>
+<path d="M27.103 82.709L28.3846 81.4274C28.6911 81.0188 29.2019 80.8144 29.8149 80.8144H33.9014C35.0252 80.8144 36.0468 80.4058 36.762 79.5885L41.4614 75.0933C42.2816 74.3174 42.3178 73.0236 41.5423 72.203C40.7668 71.3824 39.473 71.3454 38.652 72.1204L34.3611 76.1047" stroke="#ADADAD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21.9614 77.6738L27.6445 84.1028" stroke="#ADADAD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26.2538 82.4456L34.1249 76.7271C35.2533 76.7271 34.923 75.8123 34.923 74.6839C34.923 73.5554 34.0082 72.6406 32.8798 72.6406H29.8149C29.2019 72.6406 28.6911 72.845 28.3846 73.2536L22.9807 78.6575" fill="#ADADAD" stroke="#ADADAD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="34.9681" cy="72.1875" r="2.9125" fill="#ADADAD" stroke="white" stroke-width="1.8"/>
+<path d="M30.6106 75.1094L34.9856 75.1094" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

@@ -10,13 +10,20 @@
     <div class="wrapper">
         <header>
             <h1 class="logo">ОСНОВНЫЕ ИНДИКАТОРЫ ПРОДУКТОВ</h1>
-            <div class="settings">
-                <div class="production">Производство</div>
-                <div class="procucer-prices">Цены производителей</div>
-                <div class="events">События</div>
-                <div class="export-import">Экспорт/импорт</div>
-                <div class="retail-prices">Потребительские цены</div>
-                <div class="notification">Сработало уведомление</div>
+            <div class="settings column">
+                <div class="settings-up row">                    
+                    <div class="production row align-center">
+                        <img src="img/graph_empty.svg" alt="production" width="30px">
+                        <p class="text-gray">Производство</p>
+                    </div>
+                    <div class="procucer-prices">Цены производителей</div>
+                    <div class="events">События</div>
+                </div>
+                <div class="settings-down row">
+                    <div class="export-import">Экспорт/импорт</div>
+                    <div class="retail-prices">Потребительские цены</div>
+                    <div class="notification">Сработало уведомление</div>
+                </div>
             </div>
         </header>
         <menu>
@@ -26,52 +33,493 @@
             <div class="export index">ЭКСПОРТ млрд $ США</div>
             <div class="consumption index">ИПЦ г/г</div>
         </menu>
-        <div class="columns">
-            <div class="left">
+        <div class="row">
+            <div class="column left ">
                 <div class="plants">
                     <h2>РАСТЕНИЕВОДСТВО</h2>
-                    <div class="columns">
-                        <div class="left">
-                            <div class="seeds">Зерновые и зернобобовые</div>
-                            <div class="wheat">Пшеница</div>
-                            <div class="barley">Ячмень</div>
-                            <div class="corn">Кукуруза</div>
-                            <div class="buckwheat">Гречиха</div>
-                            <div class="rice">Рис-сырец</div>
-                            <div class="cabbage">Капуста</div>
+                    <div class="row">
+                        <div class="column left ">
+                            <div class="seeds row">
+                                <img src="img/seeds.svg" alt="seeds" width="50px">
+                                <p>Зерновые и зернобобовые</p>
+                                <div class="column">
+                                    <div class="fact row">
+                                        <p class="text-vertical">ФАКТ</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                    <div class="production row">
+                                        <p class="text-vertical">ПР-З</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wheat row">
+                                <img src="img/wheat.png" alt="seeds" width="50px">
+                                <p>Пшеница</p>
+                                <div class="column">
+                                    <div class="fact row">
+                                        <p class="text-vertical">ФАКТ</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                    <div class="production row">
+                                        <p class="text-vertical">ПР-З</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="barley row">
+                                <img src="img/barley.png" alt="seeds" width="50px">
+                                <p>Ячмень</p>
+                                <div class="column">
+                                    <div class="fact row">
+                                        <p class="text-vertical">ФАКТ</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                    <div class="production row">
+                                        <p class="text-vertical">ПР-З</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="corn row">
+                                <img src="img/corn.png" alt="seeds" width="50px">
+                                <p>Кукуруза</p>
+                                <div class="column">
+                                    <div class="fact row">
+                                        <p class="text-vertical">ФАКТ</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                    <div class="production row">
+                                        <p class="text-vertical">ПР-З</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="buckwheat row">
+                                <img src="img/buckweat.png" alt="seeds" width="50px">
+                                <p>Гречиха</p>
+                                <div class="column">
+                                    <div class="fact row">
+                                        <p class="text-vertical">ФАКТ</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                    <div class="production row">
+                                        <p class="text-vertical">ПР-З</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rice row">
+                                <img src="img/rice.svg" alt="seeds" width="50px">
+                                <p>Рис-сырец</p>
+                                <div class="column">
+                                    <div class="fact row">
+                                        <p class="text-vertical">ФАКТ</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                    <div class="production row">
+                                        <p class="text-vertical">ПР-З</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cabbage row">
+                                <img src="img/cabbage.svg" alt="seeds" width="50px">
+                                <p>Капуста</p>
+                                <div class="column">
+                                    <div class="fact row">
+                                        <p class="text-vertical">ФАКТ</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                    <div class="production row">
+                                        <p class="text-vertical">ПР-З</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="right">
-                            <div class="soy">Соевые бобы</div>
-                            <div class="rapeseed">Семена рапса</div>
-                            <div class="potato">Картофель</div>
-                            <div class="beet">Свекла столовая</div>
-                            <div class="carrot">Морковь</div>
-                            <div class="onion">Лук репчатый</div>
+                        <div class="column right">
+                            <div class="soy row">
+                                <img src="img/soy.svg" alt="seeds" width="50px">
+                                <p>Соевые бобы</p>
+                                <div class="column">
+                                    <div class="fact row">
+                                        <p class="text-vertical">ФАКТ</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                    <div class="production row">
+                                        <p class="text-vertical">ПР-З</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rapeseed row">
+                                <img src="img/rapeseed.png" alt="seeds" width="50px">
+                                <p>Семена рапса</p>
+                                <div class="column">
+                                    <div class="fact row">
+                                        <p class="text-vertical">ФАКТ</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                    <div class="production row">
+                                        <p class="text-vertical">ПР-З</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="potato row">
+                                <img src="img/potato.svg" alt="seeds" width="50px">
+                                <p>Картофель</p>
+                                <div class="column">
+                                    <div class="fact row">
+                                        <p class="text-vertical">ФАКТ</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                    <div class="production row">
+                                        <p class="text-vertical">ПР-З</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="beet row">
+                                <img src="img/beet.svg" alt="seeds" width="50px">
+                                <p>Свекла столовая</p>
+                                <div class="column">
+                                    <div class="fact row">
+                                        <p class="text-vertical">ФАКТ</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                    <div class="production row">
+                                        <p class="text-vertical">ПР-З</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carrot row">
+                                <img src="img/carrot.svg" alt="seeds" width="50px">
+                                <p>Морковь</p>
+                                <div class="column">
+                                    <div class="fact row">
+                                        <p class="text-vertical">ФАКТ</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                    <div class="production row">
+                                        <p class="text-vertical">ПР-З</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="onion row">
+                                <img src="img/onion.svg" alt="seeds" width="50px">
+                                <p>Лук репчатый</p>
+                                <div class="column">
+                                    <div class="fact row">
+                                        <p class="text-vertical">ФАКТ</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                    <div class="production row">
+                                        <p class="text-vertical">ПР-З</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="right">
-                <div class="columns">
+            <div class="column right">
+                <div class="row">
                     <div class="left">
                         <div class="animals">
                             <h2>ЖИВОТНОВОДСТВО</h2>
-                            <div class="beef">Говядина</div>
-                            <div class="pork">Свинина</div>
-                            <div class="chicken">Мясо птицы</div>
-                            <div class="milk">Молоко сырое</div>
-                            <div class="egs">Яйца куриные</div>
+                            <div class="cow row">
+                                <img src="img/cow.svg" alt="seeds" width="50px">
+                                <p>Говядина</p>
+                                <div class="column">
+                                    <div class="fact row">
+                                        <p class="text-vertical">ФАКТ</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                    <div class="production row">
+                                        <p class="text-vertical">ПР-З</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pork row">
+                                <img src="img/pork.svg" alt="seeds" width="50px">
+                                <p>Свинина</p>
+                                <div class="column">
+                                    <div class="fact row">
+                                        <p class="text-vertical">ФАКТ</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                    <div class="production row">
+                                        <p class="text-vertical">ПР-З</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chicken row">
+                                <img src="img/chicken.svg" alt="seeds" width="50px">
+                                <p>Мясо птицы</p>
+                                <div class="column">
+                                    <div class="fact row">
+                                        <p class="text-vertical">ФАКТ</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                    <div class="production row">
+                                        <p class="text-vertical">ПР-З</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="milk row">
+                                <img src="img/milk.svg" alt="seeds" width="50px">
+                                <p>Молоко сырое</p>
+                                <div class="column">
+                                    <div class="fact row">
+                                        <p class="text-vertical">ФАКТ</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                    <div class="production row">
+                                        <p class="text-vertical">ПР-З</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="egs row">
+                                <img src="img/egs.svg" alt="seeds" width="50px">
+                                <p>Яйца куриные</p>
+                                <div class="column">
+                                    <div class="fact row">
+                                        <p class="text-vertical">ФАКТ</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                    <div class="production row">
+                                        <p class="text-vertical">ПР-З</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="right">
+                    <div class="right column">
                         <div class="refined">
                             <h2>ПЕРЕРАБОТКА</h2>
-                            <div class="sunoil">Подсолнечник + масло подсолнечное</div>
-                            <div class="sugar">Сахар</div>
+                            <div class="sunoil row">
+                                <img src="img/sunflower.svg" alt="seeds" width="50px">
+                                <p>Подсолнечник + масло подсолнечное</p>
+                                <div class="column">
+                                    <div class="fact row">
+                                        <p class="text-vertical">ФАКТ</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                    <div class="production row">
+                                        <p class="text-vertical">ПР-З</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sugar row">
+                                <img src="img/sugar.svg" alt="seeds" width="50px">
+                                <p>Сахар</p>
+                                <div class="column">
+                                    <div class="fact row">
+                                        <p class="text-vertical">ФАКТ</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                    <div class="production row">
+                                        <p class="text-vertical">ПР-З</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="fish">
                             <h2>РЫБА</h2>
-                            <div class="fish">Рыба и морепродукты</div>
+                            <div class="fish row">
+                                <img src="img/fish.svg" alt="seeds" width="50px">
+                                <p>Рыба и морепродукты</p>
+                                <div class="column">
+                                    <div class="fact row">
+                                        <p class="text-vertical">ФАКТ</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                    <div class="production row">
+                                        <p class="text-vertical">ПР-З</p>
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                        <img src="img/graph_up.svg" alt="fact" width="20px">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
