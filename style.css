@@ -1,12 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+
+:root {
+  --green: #229665;
+  --green-light: #49AA4B;
+  --gray: #D6D6D6;
+  --gray-dark: #AEAEAE;
+  --gray-light: #ECECEC;
+  --red: #EF0000;
+  --white-dark: #fEfEfE;
+  --white: #FFFFFF;
+  --radius: 10px;
+
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 30px;
+    font-family: 'Golos Text', sans-serif;
 }
 
 .row{
@@ -20,13 +31,43 @@ body {
     flex-direction: column;
 }
 
+.block-white{
+    background-color: var(--white);
+    border-radius: var(--radius);
+    padding: 2px;
+    margin: 2px;
+}
+
+.block-green{
+    background-color: var(--green);
+    border-radius: var(--radius);
+}
+
+.block-gray{
+    background-color: var(--gray);
+    border-radius: var(--radius);
+}
+
+.block-wight-dark{
+    background-color: var(--white-dark);
+    border-radius: var(--radius);
+}
+
+.align-center{
+    align-items:center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
 .text-center{
     text-align: center;
 }
 
-.align-center{
-    align-items: center;
-    justify-content: center;
+.text-left{
+    text-align: left;
+    width: 100%;
 }
 
 .text-vertical{
@@ -35,8 +76,32 @@ body {
     font-size: 10px;
 }
 
+.text-white{
+    color: var(--white);
+}
+
+.text-green{
+    color: var(--green);
+}
+
+.text-red{
+    color: var(--red);
+}
+
 .text-gray{
-    color: gray;
+    color: var(--gray-dark);
+}
+
+.text-biggest{
+    font-size: 32px;
+}
+
+.text-bigger{
+    font-size: 24px;
+}
+
+.text-big{
+    font-size: 20px;
 }
 
 .text-medium{
@@ -47,22 +112,23 @@ body {
     font-size: 9px;
 }
 
-h2{
-    width: 100%;
+body {
+    padding: 10px;
+    background-color: var(--gray-light);
 }
 
 .wrapper {
     display: grid;
     height: 100vh;
     grid-template-columns: 100%;
-    grid-template-rows: 10% 10% auto;
+    grid-template-rows: 15vh 15vh auto;
+    padding: 10px;
 }
 
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
 }
 
 .settings {
@@ -75,6 +141,11 @@ menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.indicator{
+  border-radius: 20%;
+  border-color: antiquewhite;
 }
 
 .left {
