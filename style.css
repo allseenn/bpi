@@ -4,10 +4,10 @@
   --green: #229665;
   --green-light: #49AA4B;
   --gray: #D6D6D6;
-  --gray-dark: #AEAEAE;
   --gray-light: #ECECEC;
+  --gray-dark: #757575;
   --red: #EF0000;
-  --white-dark: #fEfEfE;
+  --white-dark: #F6F6F6;
   --white: #FFFFFF;
   --radius: 10px;
 
@@ -26,31 +26,19 @@
     justify-content: space-between;
 }
 
+.left {
+    width: 50%;
+    display: flex;
+
+}
+.right {
+    width: 50%;
+    display: flex;
+}
+
 .column{
     display: flex;
     flex-direction: column;
-}
-
-.block-white{
-    background-color: var(--white);
-    border-radius: var(--radius);
-    padding: 2px;
-    margin: 2px;
-}
-
-.block-green{
-    background-color: var(--green);
-    border-radius: var(--radius);
-}
-
-.block-gray{
-    background-color: var(--gray);
-    border-radius: var(--radius);
-}
-
-.block-wight-dark{
-    background-color: var(--white-dark);
-    border-radius: var(--radius);
 }
 
 .align-center{
@@ -88,7 +76,7 @@
     color: var(--red);
 }
 
-.text-gray{
+.text-gray-dark{
     color: var(--gray-dark);
 }
 
@@ -101,7 +89,7 @@
 }
 
 .text-big{
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .text-medium{
@@ -132,10 +120,17 @@ header{
 }
 
 .settings {
-    display: flex;
-    width: 30vw;
-    justify-content: space-between;
-}   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 400px;
+    background-color: var(--white-dark);
+
+}
+
+.setting{
+  border-radius: 10px;
+}
 
 menu {
     display: flex;
@@ -144,23 +139,57 @@ menu {
 }
 
 .indicator{
-  border-radius: 20%;
-  border-color: antiquewhite;
+    background-color: var(--gray);
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;;
+    justify-content: space-evenly;
+}
+.general{
+    background-color: var(--green);
+    border-radius: 10px;
+    width: 130px;
+    height: 60px;
 }
 
-.left {
-    width: 50%;
-    display: flex;
-
-}
-.right {
-    width: 50%;
-    display: flex;
+.index{
+    background-color: var(--white);
+    border-radius: 3px;
+    padding: 2px;
+    margin: 2px;
+    height: fit-content;
 }
 
-.asset-items{
+.agrisector{
+    background-color: var(--white-dark);
+    border-radius: var(--radius);
+    padding: 10px;
+    margin: 10px;
+}
+
+.agriculture{
+    border-bottom: var(--green) 3px solid;
+    padding: 5px;
+    margin: 5px
+}
+
+.agrititle{
+    background-color: var(--green);
+    border-radius: var(--radius);
+    padding: 5px;
+    margin: 5px
+}
+
+.assets-items{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+[class^="asset-"]{
+    background-color: var(--gray);
+    padding: 0px 10px 0px 0px;
+    margin-top: 5px;
+    border-radius: 5px;
 }
 
