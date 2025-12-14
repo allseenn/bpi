@@ -27,12 +27,12 @@
 }
 
 .left {
-    width: 50%;
+    width: 49%;
     display: flex;
 
 }
 .right {
-    width: 50%;
+    width: 49%;
     display: flex;
 }
 
@@ -61,7 +61,9 @@
 .text-vertical{
     writing-mode: vertical-lr;
     transform: rotate(180deg);
-    font-size: 10px;
+    font-size: 8px;
+    color: var(--gray-dark);
+    padding: 2px;
 }
 
 .text-white{
