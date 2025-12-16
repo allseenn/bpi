@@ -154,6 +154,7 @@ menu {
 .consumption{
     position: relative;
     overflow: hidden;
+    cursor: pointer; 
 }
 
 .consumption .ipc-overlay {
@@ -258,6 +259,7 @@ menu {
     padding: 5px;
     width: 235px;
     height: 58px;
+    cursor: pointer;
 }
 
 .plan-info{
