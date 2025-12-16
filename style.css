@@ -241,6 +241,45 @@ menu {
     flex-wrap: wrap;
 }
 
+.popup{
+    margin: 0;
+    padding: 5px;
+    width: 235px;
+    height: 58px;
+}
+
+.plan-info{
+    width: 170px;
+    height: 23px;
+    background-color: var(--gray);
+    align-items: center;
+    padding: 1px;
+}
+
+.fact-info{
+    width: 130px;
+    height: 23px;
+    background-color: var(--gray);
+    align-items: center;
+    padding: 1px;
+}
+
+.potato .fact .popup {
+    display: none;
+    position: fixed;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.potato .fact:hover .popup {
+    display: block;
+}
+
 .animals{
     grid-column: 3/4;
     grid-row: 3/5;

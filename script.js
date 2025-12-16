@@ -15,3 +15,9 @@ document.querySelectorAll('.consumption').forEach(item => {
         window.location.href = 'hello.html';
     });
 });
+
+document.querySelectorAll('.potato .fact .popup').forEach(popup => {
+    popup.addEventListener('click', () => {
+        window.location.href = 'hello.html';
+    });
+})
