@@ -1,4 +1,4 @@
-document.querySelectorAll('.indicator').forEach(item => {
+document.querySelectorAll('.consumption').forEach(item => {
     const overlay = document.createElement('div');
     overlay.className = 'ipc-overlay';
     overlay.textContent = 'Перейти';
