@@ -11,4 +11,7 @@ document.querySelectorAll('.indicator').forEach(item => {
     item.addEventListener('mouseleave', () => {
         item.classList.remove('hovered');
     });
+    item.addEventListener('click', () => {
+        window.location.href = 'hello.html';
+    });
 });
