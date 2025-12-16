@@ -148,6 +148,47 @@ menu {
     width: 250px;
     height: 60px;;
     justify-content: space-evenly;
+    position: relative;
+    overflow: hidden;
+}
+
+.indicator .ipc-overlay {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #229665;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    transition: left 0.25s ease;
+    pointer-events: none;
+}
+
+
+.indicator.hovered .ipc-overlay {
+    left: 0;
+}
+
+.ipc-overlay{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--green);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    transition: left 0.3s ease;
+    cursor: pointer; /* указатель */
+    text-decoration: none;
 }
 
 .general{
@@ -232,6 +273,31 @@ menu {
     border-radius: 5px;
     height: 30px;
     width: 120px;
+
+}
+
+/* ---------------- PAD (769px вЂ” 1024px) ---------------- */
+@media (min-width: 769px) and (max-width: 1024px) {
+.wrapper {
+    display: grid;
+    grid-template-columns: 50% 505;
+    grid-template-rows: 30vh 60vh 160vh 70vh 35vh 25vh;
+    padding: 10px;
+}
+
+header{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+}
+
+.logo{
+    max-width: *;
+    font-size: 24px;
+    text-align: center;
+}
 
 }
 
